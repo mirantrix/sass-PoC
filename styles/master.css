@@ -1,0 +1,30 @@
+section, footer, nav {
+  background-color: #dedede;
+  min-height: 400px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #007bff;
+}
+nav a {
+  color: #dedede;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #222222;
+}
+footer .social-media {
+  display: flex;
+  flex-direction: column;
+}
+footer .links {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=master.css.map */

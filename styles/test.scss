@@ -1,0 +1,19 @@
+
+@import './variables';
+@import './mixins';
+@import './section';
+@import './navigation';
+
+
+footer {
+  @extend section;
+  background-color: $bg-dark-l1;
+
+  .social-media {
+    @include flexDirection(column);
+  }
+  .links {
+    @include flexDirection(column);
+  }
+
+}

@@ -1,0 +1,15 @@
+
+#nav {
+  @extend section;
+
+  @include flexDirection(row);
+  background-color: $bg-blue;
+
+  a{
+    color: $primary-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
